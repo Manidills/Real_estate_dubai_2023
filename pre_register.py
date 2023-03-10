@@ -71,7 +71,7 @@ def pre():
         ),  use_container_width=True
     
                     )
-    st.write("Properties around Buj AL Aarb, Downtown and Buj Khalifa seems very costlier compare with others landmarks. Properties around the Airports are rapidliy increasing and in future it can able to overtake top landmarks ")
+    st.write("Properties around Buj AL Arab, Downtown and Buj Khalifa seems very costlier compare with others landmarks. Properties around the Airports are rapidliy increasing and in future it can able to overtake top landmarks ")
 
     
     landmark_grp = df.groupby(['instance_date']).mean().reset_index()
