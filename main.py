@@ -63,6 +63,7 @@ if option == 'About':
 
     st.markdown("##")
     st.success(f"Source data from {'https://www.dubaipulse.gov.ae/data/dld-transactions/dld_transactions-open'}")
+    st.info (f"{'https://github.com/Manidills/Real_estate_dubai_2023'}")
 elif option == 'Pre-Register':
     pre()
 elif option == 'Sell':
